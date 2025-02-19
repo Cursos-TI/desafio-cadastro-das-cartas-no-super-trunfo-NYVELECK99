@@ -1,17 +1,34 @@
-#include <stdio.h>
-
+#include <stdio.h> 
 int main(){
+
 int populacao;
 int pontosturisticos;
+float PIB;
 float area;
-float pib;
-char cidade[40];
+char  cidade[40];
 
 
-printf("%d", populacao)
-printf("%d", pontosturisticos)
-printf("%f", area)
-printf("%f", pib)
-printf("%s", cidade);
+printf("digite o nome da cidade:\n ");
+scanf("%s", &cidade);
 
+
+printf("Digite a população:\n ");
+scanf("%d", &populacao);
+
+
+printf("Digite o número de pontosturísticos:\n ");
+scanf("%d", &pontosturisticos);
+
+
+printf("Digite o PIB:\n ");
+scanf("%f", &PIB);
+
+
+printf("Digite a área:\n");
+scanf("%f", &area);
+
+return 0;
 }
+
+
+
